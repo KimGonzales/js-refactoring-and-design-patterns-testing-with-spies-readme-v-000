@@ -66,7 +66,7 @@ After `store.setData('flavor', 'chocolate');` has done its thing, our callback a
 because the store is emitting a change (by calling all callbacks in the `listeners` array).
 
 ## Testing the `subscribe()` function
-What we're interested in testing our store is the `subscribe()` function. We need to verify that our
+What we're interested in testing in our store is the `subscribe()` function. We need to verify that our
 callback gets called every time the store data changes. To do so, we'll write a fairly simple test
 that makes use of spies. As mentioned above, we're using Sinon.js to create spies. There are other
 spy libraries out there, but this is by far the most robust and popular one.
